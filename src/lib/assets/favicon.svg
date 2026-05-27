@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>Brightscroll</title>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="36%" r="42%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- dark app tile -->
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="#0b0b0c"/>
+  <!-- glow: the "bright" in Brightscroll -->
+  <circle cx="64" cy="46" r="40" fill="url(#glow)"/>
+  <!-- spark: a single fascinating fact, distilled -->
+  <g transform="translate(44,26) scale(1.667)">
+    <path d="M12 0C12 6.6 6.6 12 0 12C6.6 12 12 17.4 12 24C12 17.4 17.4 12 24 12C17.4 12 12 6.6 12 0Z" fill="#fbbf24"/>
+  </g>
+  <!-- post text, fading down to imply an endless scrollable feed -->
+  <rect x="40" y="80" width="48" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.92"/>
+  <rect x="40" y="92" width="36" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.5"/>
+  <rect x="40" y="104" width="22" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.22"/>
+</svg>
